@@ -35,7 +35,7 @@ The number in the delay function
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 When I set the delay function to delay(10) I cannot percieve that it is blinking any longer. To prove to myself that it is infact still blinking, I changed The delay at the end of the loop so that the time between blinks was increased and now i can percieve the very fast blink that occurs due to the delay between the turning off of the LED and the restating of the loop. 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
-
+https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/My-blink-lab1
 
 ### 2. Blink your LED
 
