@@ -47,14 +47,14 @@ https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/My-blink-lab1
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
-
+Yes, The LED did glow the who turning of the potentiometer. The glow was very low on one end of the spectrum and seemed not to increase very much for the first few degrees of turning however after the halfway point, the LED started glowing stronger and stronger as the dial turned towards the end that went to ground. 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
-
+I need to take out the potentiometer and add a wire from port 11 to the LED curciut so that there is a close curcuit connected to a por thtat supports PWM in arduino. In terms of the code, just had to make sure that the correct port was being called when the code was intialized 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
-
+Unknown??????????
 
 ## Part F. FRANKENLIGHT!!!
 
