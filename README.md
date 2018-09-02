@@ -31,7 +31,7 @@ Did not need to change any lines of code to make the LED blink
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 The number in the delay function 
 **c. What circuit element would you want to add to protect the board and external LED?**
- Resistor 
+ A Resistor
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 When I set the delay function to delay(10) I cannot percieve that it is blinking any longer. To prove to myself that it is infact still blinking, I changed The delay at the end of the loop so that the time between blinks was increased and now i can percieve the very fast blink that occurs due to the delay between the turning off of the LED and the restating of the loop. 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
