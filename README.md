@@ -70,13 +70,15 @@ I need to take out the potentiometer and add a wire from port 11 to the LED curc
 
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
-Unknown??????????
+AnalogWrite is used to send specific value of frequency through a PWM capable pin in the arduino board. This is different to DigitalWrite as digitalwrite only has two states (high voltage-on, low voltage-off) where as analogwrite can have several states
 
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
+
+Yes, there is a processor in the mouse. 
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
@@ -87,6 +89,8 @@ Unknown??????????
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
+
+
 
 ### 3. Build your light!
 
