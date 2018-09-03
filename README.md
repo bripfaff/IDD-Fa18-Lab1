@@ -18,9 +18,11 @@
 ## Part B. Manually Blink a LED
 
 **a. What color stripes are on a 100 Ohm resistor?**
-Brown Black Brown //
+
+Brown Black Brown
 
 **b. What do you have to do to light your LED?**
+
 Press the button.
 
 ## Part C. Blink a LED using Arduino
@@ -28,14 +30,23 @@ Press the button.
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+
 Did not need to change any lines of code to make the LED blink
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+
 The number in the delay function 
+
 **c. What circuit element would you want to add to protect the board and external LED?**
+
  A Resistor
+ 
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
+
 When I set the delay function to delay(10) I cannot percieve that it is blinking any longer. To prove to myself that it is infact still blinking, I changed The delay at the end of the loop so that the time between blinks was increased and now i can percieve the very fast blink that occurs due to the delay between the turning off of the LED and the restating of the loop. 
+
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
 https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/My-blink-lab1
 
 ### 2. Blink your LED
@@ -48,13 +59,17 @@ https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/My-blink-lab1
 ## Part D. Manually fade an LED
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
+
 Yes, The LED did glow the who turning of the potentiometer. The glow was very low on one end of the spectrum and seemed not to increase very much for the first few degrees of turning however after the halfway point, the LED started glowing stronger and stronger as the dial turned towards the end that went to ground. 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
+
 I need to take out the potentiometer and add a wire from port 11 to the LED curciut so that there is a close curcuit connected to a por thtat supports PWM in arduino. In terms of the code, just had to make sure that the correct port was being called when the code was intialized 
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
+
 Unknown??????????
 
 ## Part F. FRANKENLIGHT!!!
