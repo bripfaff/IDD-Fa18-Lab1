@@ -72,6 +72,9 @@ I need to take out the potentiometer and add a wire from port 11 to the LED curc
 
 AnalogWrite is used to send specific value of frequency through a PWM capable pin in the arduino board. This is different to DigitalWrite as digitalwrite only has two states (high voltage-on, low voltage-off) where as analogwrite can have several states
 
+** Arduino Sketch **
+https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/my_fade_lab1
+
 ## Part F. FRANKENLIGHT!!!
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
