@@ -23,7 +23,7 @@ Brown Black Brown
 
 **b. What do you have to do to light your LED?**
 
-Press the button.
+I only had to press the installed button for the LED to light up. The green light on top of the LED was on when I plugged in the arduino board and so I did notneed to do anything for that. 
 
 ## Part C. Blink a LED using Arduino
 
