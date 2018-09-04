@@ -35,11 +35,11 @@ Did not need to change any lines of code to make the LED blink
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
 
-The number in the delay function 
+The number in the delay() function 
 
 **c. What circuit element would you want to add to protect the board and external LED?**
 
- A Resistor
+ A Resistor so that a minimum resistance is in the circuit. This makes sure that all the current isn't forced into the LED at once according to Ohm's Law (I= V/R)
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
@@ -81,19 +81,25 @@ https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/my_fade_lab1
 
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
-Yes, there is a processor in the mouse. 
+Yes, there is a processor in the mouse. The processor is in the centre of the mother board. It is processing how the light is changing as the mouse moves over a surface. This is then converted in that processor so that the computer can understand how to deal with the changes in the light flow. I believe that the 4 resistors on the mouse have something to do with this in terms of determining direction through flow of current.
 
 **b. Are there sensors on your device? How do they work? How is the sensed information conveyed to other portions of the device?**
 
+Yes, there is a sensor that detects changes in light reflection as a mouse flows over the surface. As stated above, I believe that the  4 resistors in the mouse have something to do with how the sensed information is conveyed to other portions of the device. 
+
 **c. How is the device powered? Is there any transformation or regulation of the power? How is that done? What voltages are used throughout the system?**
 
+The device is power by a usb point. This is then connected to the board as indicated below. 
+
 **d. Is information stored in your device? Where? How?**
+
+No, I don't think that information is stored on it. 
 
 ### 2. Using your schematic, figure out where a good point would be to hijack your device and implant an LED.
 
 **Describe what you did here.**
 
-
+There are two easily accessable wires on the LEd that can used to hijack the LED. This makes it a very easy hack due to the accessability of the wires. The only precaution is that I add a resistor to the curcuit for the safety of the LED. 
 
 ### 3. Build your light!
 
