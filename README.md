@@ -29,6 +29,8 @@ I only had to press the installed button for the LED to light up. The green ligh
 
 ### 1. Blink the on-board LED
 
+https://youtu.be/EBD9TK4xvCQ
+
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
 Did not need to change any lines of code to make the LED blink
@@ -53,7 +55,7 @@ https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/My-blink-lab1
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
+https://youtu.be/xME1D10-KTc
 
 
 ## Part D. Manually fade an LED
@@ -108,5 +110,5 @@ There are two easily accessable wires on the LEd that can used to hijack the LED
 ### 3. Build your light!
 
 **Make a video showing off your Frankenlight.**
-
+https://youtu.be/a8-69snQAWU
 **Include any schematics or photos in your lab write-up.**
