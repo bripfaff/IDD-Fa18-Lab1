@@ -79,6 +79,10 @@ https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/my_fade_lab1
 
 ### 1. Take apart your electronic device, and draw a schematic of what is inside. 
 
+https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/40684467_1378916132211707_2721058564532600832_n.jpg
+
+Inside the device there are 5 resistors, a processor and an LED. 
+
 **a. Is there computation in your device? Where is it? What do you think is happening inside the "computer?"**
 
 Yes, there is a processor in the mouse. The processor is in the centre of the mother board. It is processing how the light is changing as the mouse moves over a surface. This is then converted in that processor so that the computer can understand how to deal with the changes in the light flow. I believe that the 4 resistors on the mouse have something to do with this in terms of determining direction through flow of current.
