@@ -12,7 +12,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
+https://github.com/bripfaff/IDD-Fa18-Lab1/blob/master/41072576_499850473814502_1370875972298997760_n.jpg
 
 
 ## Part B. Manually Blink a LED
